@@ -2,6 +2,9 @@ import json
 from dataclasses import dataclass
 
 @dataclass
+class path:
+    user_id: str
+@dataclass
 class Input:
     pass
 
